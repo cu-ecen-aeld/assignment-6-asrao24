@@ -4,12 +4,12 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 # TODO:DONE Set this  with the path to your assignments rep.  Use ssh protocol and see lecture notes
 # about how to setup ssh-agent for passwordless access
-INHIBIT_DEFAULT_CHECKSUM = "1"
-SRC_URI = "https://github.com/cu-ecen-aeld/assignments-3-and-later-asrao24;protocol=ssh;branch=master"
+#INHIBIT_DEFAULT_CHECKSUM = "1"
+SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-asrao24;protocol=ssh;branch=master"
 #SRC_URI[sha256sum] = "ed8a15694135fb9c961386e753f4168ca3d6cc3c3de53bebe47547713b3590f9"
 
-#PV = "1.0+git${SRCPV}"
-PV = "1.0"
+PV = "1.0+git${SRCPV}"
+#PV = "1.0"
 # TODO:DONE set to reference a specific commit hash in your assignment repo
 SRCREV = "536f75dc357e09312670d694d5c8947b1461dae2"
 
